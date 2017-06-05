@@ -7,7 +7,6 @@
 //
 
 #import "AppConfig.h"
-#import "OpenUDID.h"
 
 @implementation AppConfig
 - (id)init {
@@ -26,7 +25,7 @@
     NSString *docDir = [paths objectAtIndex:0];
     
     //标示
-    self.imei = [OpenUDID value];
+//    self.imei = [OpenUDID value];
     
     // 客户端信息
     self.clientCode = @"1.0.0";

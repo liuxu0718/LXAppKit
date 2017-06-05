@@ -34,7 +34,6 @@
 		904E5C331ECBE9270059D077 /* AppNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B2F1ECBE9270059D077 /* AppNavigator.m */; };
 		904E5C341ECBE9270059D077 /* AppTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B311ECBE9270059D077 /* AppTabBarViewController.m */; };
 		904E5C351ECBE9270059D077 /* AppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B331ECBE9270059D077 /* AppUser.m */; };
-		904E5C361ECBE9270059D077 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B361ECBE9270059D077 /* OpenUDID.m */; };
 		904E5C371ECBE9270059D077 /* AppTabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B391ECBE9270059D077 /* AppTabBarManager.m */; };
 		904E5C381ECBE9270059D077 /* AppUploadImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B3B1ECBE9270059D077 /* AppUploadImageManager.m */; };
 		904E5C391ECBE9270059D077 /* OpenURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 904E5B3D1ECBE9270059D077 /* OpenURLManager.m */; };
@@ -220,8 +219,6 @@
 		904E5B321ECBE9270059D077 /* AppUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUser.h; sourceTree = "<group>"; };
 		904E5B331ECBE9270059D077 /* AppUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUser.m; sourceTree = "<group>"; };
 		904E5B341ECBE9270059D077 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
-		904E5B351ECBE9270059D077 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
-		904E5B361ECBE9270059D077 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		904E5B381ECBE9270059D077 /* AppTabBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTabBarManager.h; sourceTree = "<group>"; };
 		904E5B391ECBE9270059D077 /* AppTabBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTabBarManager.m; sourceTree = "<group>"; };
 		904E5B3A1ECBE9270059D077 /* AppUploadImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUploadImageManager.h; sourceTree = "<group>"; };
@@ -560,8 +557,6 @@
 				904E5B321ECBE9270059D077 /* AppUser.h */,
 				904E5B331ECBE9270059D077 /* AppUser.m */,
 				904E5B341ECBE9270059D077 /* Defines.h */,
-				904E5B351ECBE9270059D077 /* OpenUDID.h */,
-				904E5B361ECBE9270059D077 /* OpenUDID.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1239,7 +1234,6 @@
 				904E5C771ECBE9270059D077 /* MJRefreshBackStateFooter.m in Sources */,
 				904E5C291ECBE9270059D077 /* UIDevice+UIDeviceExt.m in Sources */,
 				904E5C1E1ECBE9270059D077 /* NSBundle+Scale.m in Sources */,
-				904E5C361ECBE9270059D077 /* OpenUDID.m in Sources */,
 				904E5C5B1ECBE9270059D077 /* MASLayoutConstraint.m in Sources */,
 				904E5C901ECBE9270059D077 /* UIView+WebCacheOperation.m in Sources */,
 				904E5C6A1ECBE9270059D077 /* NSObject+MJKeyValue.m in Sources */,
@@ -1456,7 +1450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74BF6XVRUL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AppProject/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AppProject/Class/PrefixHeader.pch";
 				INFOPLIST_FILE = AppProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuxu.AppProject;
@@ -1469,7 +1463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74BF6XVRUL;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/AppProject/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AppProject/Class/PrefixHeader.pch";
 				INFOPLIST_FILE = AppProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuxu.AppProject;
